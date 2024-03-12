@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  downloadCV() {
+    let a = document.createElement('a');
+    a.href = "assets/Ajay-Kharat-Resume.pdf"
+    a.download = "Ajay-Kharat-Resume.pdf"
+    a.click();
+  }
+
 }
