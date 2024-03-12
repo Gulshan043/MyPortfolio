@@ -8,6 +8,9 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { FeaturesComponent } from './features.component';
 import { CoreModule } from '../core/core.module';
+import { BlogComponent } from './components/blog/blog.component';
+import { ServicesComponent } from './components/services/services.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { CoreModule } from '../core/core.module';
     ProjectsComponent,
     SkillsComponent,
     FeaturesComponent,
+    BlogComponent,
+    ServicesComponent,
+    HomeComponent,
   ],
   imports: [CommonModule, FeaturesRoutingModule, CoreModule],
 })
