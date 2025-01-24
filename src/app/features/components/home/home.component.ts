@@ -31,8 +31,8 @@ export class HomeComponent {
 
   downloadCV() {
     let a = document.createElement('a');
-    a.href = "assets/Gulshan-Sethi-Resume.pdf"
-    a.download = "Gulshan-Sethi-Resume.pdf"
+    a.href = "assets/Gulshan-Sethi-Resume2.pdf"
+    a.download = "Gulshan-Sethi-Resume2.pdf"
     a.click();
   }
 
